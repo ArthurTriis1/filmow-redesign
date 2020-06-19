@@ -1,4 +1,4 @@
-.Header {
+header {
     background-color: #3C3B3B;
     display: flex;
     flex-direction: row;
@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    transition: all 0.3s ease-out;
 }
 
 .leftHeader img{
@@ -25,7 +26,7 @@
     flex-direction: row;
 }
 
-.leftHeader li,  .rigthHeader a, .rigthHeader button{
+.leftHeader li,  .rigthHeader a, .rigthHeader button, header  a {
     margin: 0 10px;
     font-family: Roboto;
     font-style: normal;
@@ -44,4 +45,61 @@
     padding: 7px 20px;
     font-weight: bold;
     white-space: nowrap
+}
+
+.menuHamburguer{
+    color: #FFF;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.rigthHeader ul{
+    margin-left: 10px;
+}
+
+.rigthHeader ul li{
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+
+
+.closeButton{
+    font-size: 30px;
+    color: #FFF;
+    align-self: flex-end;
+}
+
+.optionsPortable{
+    display: flex;
+    align-items: center;
+}
+
+.optionsPortable a{
+    margin-right: 20px;
+}
+
+@media (max-width: 860px){
+    
+    header{
+        justify-content: space-between;
+    }
+
+    .rigthHeader{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 60vw;
+        background-color: #3C3B3B;
+        z-index: 100;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px 20px;
+    }
+
+    .close{
+        right: -60vw;
+    }
 }
