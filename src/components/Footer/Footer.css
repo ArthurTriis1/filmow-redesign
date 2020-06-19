@@ -1,0 +1,55 @@
+footer {
+    width: 100%;
+    padding: 20px 122px;
+    background-color: #3C3B3B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.itensFooter{
+    display: flex;
+    flex-direction: row;
+}
+
+.itensFooter ul{
+    margin: 3px 20px;
+}
+
+.itensFooter ul li:first-child{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.itensFooter ul li{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.itensFooter ul li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.social{
+    color: #FFF;
+}
+
+.social .socialIcon{
+    font-size: 30px;
+    margin: 0 3px;
+    opacity: 0.7;
+}
+
+.social .socialIcon:hover{
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 3px;
+    opacity: 1;
+}
+

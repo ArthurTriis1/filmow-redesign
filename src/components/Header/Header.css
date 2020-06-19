@@ -1,0 +1,46 @@
+.Header {
+    background-color: #3C3B3B;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65px;
+}
+
+.leftHeader, .rigthHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftHeader img{
+    height: 25px;
+    margin: 0 10px;
+}
+
+.leftHeader ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftHeader li,  .rigthHeader a, .rigthHeader button{
+    margin: 0 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.leftHeader li:hover{
+    cursor: pointer;
+}
+
+.rigthHeader button{
+    background-color: #19ABE2;
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-weight: bold;
+    white-space: nowrap
+}
