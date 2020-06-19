@@ -6,6 +6,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 65px;
+    overflow: hidden;
 }
 
 .leftHeader, .rigthHeader {

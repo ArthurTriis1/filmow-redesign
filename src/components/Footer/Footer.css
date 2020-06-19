@@ -1,26 +1,31 @@
 footer {
     width: 100%;
-    padding: 20px 122px;
+    padding: 20px;
     background-color: #3C3B3B;
+    
+
+}
+
+.containerFooter{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    flex-wrap: wrap-reverse;
 }
 
 .itensFooter{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .itensFooter ul{
     margin: 3px 20px;
+    width: 100px;
 }
 
-.itensFooter ul li:first-child{
-    font-weight: bold;
-    font-size: 16px;
-}
 
 .itensFooter ul li{
     font-family: Roboto;
@@ -31,6 +36,11 @@ footer {
     opacity: 0.8;
 }
 
+.title{
+    font-weight: bold !important;
+    font-size: 16px !important;
+    color: #19ABE2 !important;
+}
 .itensFooter ul li:hover{
     opacity: 1;
     cursor: pointer;
@@ -38,6 +48,8 @@ footer {
 
 .social{
     color: #FFF;
+    padding: 0 10px;
+    margin-bottom: 20px;
 }
 
 .social .socialIcon{
