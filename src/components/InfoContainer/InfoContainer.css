@@ -1,7 +1,7 @@
-.movieContainer{
+.infoContainer{
     width: 100%;
-    width: 100%;
-    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     background-color: #f1f1f1;
     display: flex;
     align-items: center;
@@ -10,11 +10,11 @@
     flex-direction: column;
 }
 
-.movieWraper {
+.infoWraper{
     width: 80%;
 }
 
-.listMovies{
+.listInfos{
     width:100%; 
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@
 
 
 
-.movieContainer h3{
+.infoContainer h3{
     margin: 10px 0 20px 10px;
     font-family: Roboto;
     font-style: normal;
@@ -45,11 +45,11 @@
 }
 
 @media (max-width: 600px){
-    .movieWraper {
+    .infoWraper {
         width: 100%;
     }
 
-    .listMovies::-webkit-scrollbar {
+    .listInfo::-webkit-scrollbar {
         display: none;
     }
 }
