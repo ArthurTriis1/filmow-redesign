@@ -18,7 +18,7 @@ function QuadroList({ movies }) {
     <div className="quadroListWrap">
         {
             movies.map((movie, index) => (
-                <img src={movie.image} alt="ImageList" style={{left: `-${index  * recuo}px`, zIndex: `100${5-index}`}}/>
+                <img src={movie.image} key={index} alt="ImageList" style={{left: `-${index  * recuo}px`, zIndex: `100${5-index}`}}/>
             ))
         }
     </div>

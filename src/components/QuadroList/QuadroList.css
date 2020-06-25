@@ -18,6 +18,10 @@
     height: 192px;
 }
 
+.quadroListWrap img:hover{
+    z-index: 2000 !important;
+}
+
 .quadroListWrap img:first-child{
     left: 0px !important;
 }
