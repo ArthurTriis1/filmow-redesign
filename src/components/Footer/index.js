@@ -4,6 +4,23 @@ import { FaDailymotion } from 'react-icons/fa'
 import './Footer.css'
 
 const Footer = () => {
+
+    function handleClick1() {
+        window.location.assign('https://www.instagram.com/filmow/');
+      }
+
+    function handleclick2() {
+        window.location.assign('https://twitter.com/filmow');
+      }
+    
+    function handleclick3() {
+        window.location.assign('https://www.facebook.com/filmow');
+      }
+    
+    function handleclick4() {
+        window.location.assign('https://www.dailymotion.com/filmow');
+      }  
+    
     return (
         <footer>
             <div className="containerFooter">
@@ -41,10 +58,10 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="social">
-                    <AiOutlineInstagram className="socialIcon"/>
-                    <AiOutlineTwitter className="socialIcon"/>
-                    <AiFillFacebook className="socialIcon"/>
-                    <FaDailymotion className="socialIcon"/>
+                    <AiOutlineInstagram className="socialIcon" onClick={handleClick1}/>
+                    <AiOutlineTwitter className="socialIcon"onClick={handleclick2}/>
+                    <AiFillFacebook className="socialIcon" onClick={handleclick3}/>
+                    <FaDailymotion className="socialIcon" onClick={handleclick4}/>
                 </div>
             </div>
         </footer>
