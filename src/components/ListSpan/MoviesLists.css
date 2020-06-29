@@ -25,11 +25,14 @@
     text-overflow: ellipsis;
 }
 
-.arrowRight{
+.arrowRight2{
     position: relative;
+    color: #0D5873;
     top: 5px;
-    min-width: 15px;
-    font-size: 20px;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+
 }
 
 

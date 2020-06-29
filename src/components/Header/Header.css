@@ -26,7 +26,7 @@ header {
     flex-direction: row;
 }
 
-.leftHeader li,  .rigthHeader a, .rigthHeader button, header  a {
+.leftHeader li,  .rigthHeader a, .rigthHeader header  a {
     margin: 0 10px;
     font-family: Roboto;
     font-style: normal;
@@ -35,14 +35,19 @@ header {
     color: #FFFFFF;
 }
 
+
 .leftHeader li:hover{
     cursor: pointer;
 }
 
 .rigthHeader button{
-    background-color: #19ABE2;
+    border: solid;
+    border-color:white;
+    color:white;
+    background-color:#3C3B3B;
     border-radius: 5px;
-    padding: 7px 20px;
+    width: 131px;
+    height: 40px;
     font-weight: bold;
     white-space: nowrap
 }

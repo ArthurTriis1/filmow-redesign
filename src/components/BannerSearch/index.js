@@ -9,7 +9,11 @@ const BannerSearch = () => {
                 <h1>Procure um filme_</h1>
                 <div className="searchContainer">
                     <select name="" id="" className="selectSearch">
-                        <option value="">Todos</option>
+                        
+                        <option value="">All</option>
+                        <option value="">Titles</option>
+                        <option value="">TV</option>
+                        <option value="">Celebs</option>
                     </select>
                     <input type="text" name="" id="" className="searchInput" placeholder="Pesquisar no Filmow"/>
                     <div className="searchIcon">

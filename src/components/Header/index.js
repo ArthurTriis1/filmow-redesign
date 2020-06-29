@@ -35,6 +35,7 @@ const Header = () => {
                 }
             </div>
             
+            
             <div  className={`rigthHeader ${showMenu? '' : 'close'}`} >
                 {
                     portable && 
@@ -45,8 +46,10 @@ const Header = () => {
                 {
                     !portable &&
                     <>
-                        <a href="/">Entrar</a>
-                        <button>Cadastre-se</button>
+                        {/* <a href="/">Entrar</a> */}
+                        <button href="/">Entrar</button>
+                        
+                        
                     </>
                 }
                 {

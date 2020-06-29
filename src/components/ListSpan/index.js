@@ -8,7 +8,7 @@ const MoviesLists = ({ title, image, description, movies}) => {
         <div className="listWrap">
             <QuadroList movies={movies}/>
             <div className="listDescription">{description.substr(0, 45) + "..."}
-                <FiChevronsRight className="arrowRight"/> 
+                <FiChevronsRight className="arrowRight2"/> 
             </div>
         </div>           
     )
